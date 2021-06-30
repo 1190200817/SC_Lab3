@@ -1,0 +1,5 @@
+package Assist;
+
+public enum Position {  
+	SECRETARY, LECTURER, VICEPROFESSOR, VICEDEAN, PROFESSOR, MANAGER
+}  
