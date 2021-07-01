@@ -9,6 +9,9 @@ import MultiIntervalSet.MultiIntervalSet;
 
 /**
  * API
+ * 除了指导书中给出的5个函数外，另添加了两个常用的函数，分别是：
+ * 计算时间集合的时间跨度: public static double totalIntervalSpan(Set<time> set);
+ * 计算MultiIntervalSet的时间跨度: public static <L> double totalSpan(MultiIntervalSet<L> multiIntervalSet);
  * @author 刘小川
  *
  */
