@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 class ParserTest {
 
-	// 对test1.txt - test8.txt进行测试
+	// 对test1.txt - test8.txt进行格式测试
 	// test1.txt:true
 	// test2.txt:false
 	// test3.txt:false
@@ -60,6 +60,7 @@ class ParserTest {
 		assertTrue(new Parser().checkValid(sList.get(7)));
 	}
 	
+	// 测试parseEmployee函数
 	@Test
 	public void parseEmployeeTest() {
 	
@@ -82,6 +83,7 @@ class ParserTest {
 		assertEquals(new ArrayList<String>(), new Parser().parseEmployee(s2));
 	}
 	
+	// 测试parsePeriod函数
 	@Test
 	public void parsePeriodTest() {
 		
@@ -100,6 +102,7 @@ class ParserTest {
 		assertEquals("", new Parser().parsePeriod(s1));	
 	}
 	
+	// 测试parseRoster函数
 	@Test
 	public void parseRosterTest() {
 		// 解析成功

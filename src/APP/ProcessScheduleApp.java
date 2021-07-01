@@ -13,6 +13,11 @@ import Specific.ProcessIntervalSet;
 import exceptions.IntervalConflictException;
 import exceptions.StartNegativeException;
 
+/**
+ * 操作系统的进程调度管理系统
+ * @author 刘小川
+ *
+ */
 public class ProcessScheduleApp {
 
 	public static void printMenu() {

@@ -5,7 +5,11 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
+/**
+ * 针对排班文件的解析器
+ * @author 刘小川
+ *
+ */
 public class Parser {
 	
 	/**

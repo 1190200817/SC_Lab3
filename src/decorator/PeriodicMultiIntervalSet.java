@@ -7,7 +7,7 @@ import exceptions.StartNegativeException;
 /**
  * 具有周期性时间的MultiIntervalSet
  * 周期period一定是大于零的整数
- 
+ *
  * @author 刘小川
  *
  * @param <L>

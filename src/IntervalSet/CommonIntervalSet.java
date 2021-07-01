@@ -9,6 +9,12 @@ import Assist.time;
 import exceptions.IntervalConflictException;
 import exceptions.StartNegativeException;
 
+/**
+ * IntervalSet<L>的一个实现类
+ * @author 刘小川
+ *
+ * @param <L>
+ */
 public class CommonIntervalSet<L> implements IntervalSet<L> {
 
 	private final Map<L, time> intervalMap = new HashMap<>(); 

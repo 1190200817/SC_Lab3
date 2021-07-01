@@ -50,6 +50,7 @@ public class MultiIntervalSetTest {
 		
 	}
 
+	// ²âÊÔinsertº¯Êı
 	@Test
 	public void insertTest() {
 		MultiIntervalSet<String> mul = MultiIntervalSet.empty();
@@ -180,7 +181,7 @@ public class MultiIntervalSetTest {
 		
 	}
 	
-	
+	// ²âÊÔinitº¯Êı
 	@Test
 	public void initTest() {
 		IntervalSet<String> inv = IntervalSet.empty();
@@ -249,6 +250,7 @@ public class MultiIntervalSetTest {
 	
 	}
 	
+	// ²âÊÔremoveº¯Êı
 	@Test
 	public void removeTest() {
 		MultiIntervalSet<String> mul = MultiIntervalSet.empty();
@@ -299,6 +301,7 @@ public class MultiIntervalSetTest {
 		assertEquals(0, mul.labels().size());
 	}
 	
+	// ²âÊÔlabelsº¯Êı
 	@Test
 	public void labelsTest() {
 		MultiIntervalSet<String> mul = MultiIntervalSet.empty();
@@ -356,6 +359,7 @@ public class MultiIntervalSetTest {
 		assertEquals(res, mul.labels());
 	}
 	
+	// ²âÊÔintervalsº¯Êı
 	@Test
 	public void intervalsTest() {
 		MultiIntervalSet<String> mul = MultiIntervalSet.empty();

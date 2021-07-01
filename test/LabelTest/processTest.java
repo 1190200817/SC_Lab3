@@ -8,6 +8,7 @@ import Assist.Process;
 
 class processTest {
 
+	// 测试get类方法
 	@Test
 	public void processGetTest() {
 		Process p = new Process(2, "Java", 5, 10);
@@ -17,6 +18,7 @@ class processTest {
 		assertEquals(10, p.getMaximumTime());
 	}
 	
+	// 测试equals方法
 	@Test
 	public void courseEqualTest() {
 		Process c0 = new Process(1, "Java", 5, 10);
@@ -34,18 +36,19 @@ class processTest {
 		assertFalse(c0.equals(null));
 	}
 	
+	// 测试hashCode方法
 	@Test
 	public void courseHashCodeTest() {
 		Process c0 = new Process(1, "Java", 5, 10);
 		assertEquals(1, c0.hashCode());
 	}
 	
+	// 测试toString方法
 	@Test
 	public void courseToStringTest() {
 		Process c0 = new Process(1, "Java", 5, 10);
 		String res = "[Process1:Java,minTime:5,maxTime:10]";
 		assertEquals(res, c0.toString());
 	}
-
 
 }

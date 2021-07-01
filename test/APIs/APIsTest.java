@@ -11,6 +11,7 @@ import exceptions.StartNegativeException;
 
 class APIsTest {
 
+	// ²âÊÔSimilarityº¯Êý
 	@Test
 	public void similarityTest() {
 		MultiIntervalSet<String> mis1 = MultiIntervalSet.empty();
@@ -71,6 +72,7 @@ class APIsTest {
 		assertEquals(9.0/30, APIs.Similarity(mis1, mis2));
 	}
 	
+	// ²âÊÔcalcConflictRatioº¯Êý
 	@Test
 	public void calcConflictRatioForMultiTest() {
 		MultiIntervalSet<String> mis1 = MultiIntervalSet.empty();
@@ -113,6 +115,7 @@ class APIsTest {
 		assertEquals(10.0/20, APIs.calcConflictRatio(mis1));
 	}
 	
+	// ²âÊÔcalcConflictRatioº¯Êý
 	@Test
 	public void calcConflictRatioForSingleTest() {
 		IntervalSet<String> ins = IntervalSet.empty();
@@ -153,6 +156,7 @@ class APIsTest {
 
 	}
 	
+	// ²âÊÔcalcFreeTimeRatioº¯Êý
 	@Test
 	public void calcFreeTimeRatioForMultiTest() {
 		MultiIntervalSet<String> mis1 = MultiIntervalSet.empty();
@@ -211,6 +215,7 @@ class APIsTest {
 		assertEquals(1.0/29, APIs.calcFreeTimeRatio(mis1));
 	}
 	
+	// ²âÊÔcalcFreeTimeRatioº¯Êý
 	@Test
 	public void calcFreeTimeRatioForSingleTest() {
 		IntervalSet<String> ins = IntervalSet.empty();

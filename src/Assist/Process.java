@@ -1,5 +1,11 @@
 package Assist;
 
+/**
+ * ½ø³Ì
+ * Immutable
+ * @author ÁõÐ¡´¨
+ *
+ */
 public class Process {
 	
 	private final int pid;
@@ -24,7 +30,7 @@ public class Process {
 	}
 
 	private void checkRep() {
-		assert name != null;
+		assert !name.equals("");
 		assert maxTime >= minTime;
 	}
 	

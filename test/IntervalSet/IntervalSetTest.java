@@ -44,6 +44,7 @@ public abstract class IntervalSetTest {
                 Collections.emptySet(), emptyInstance().labels());
     }
     
+    // 测试insert函数
     @Test
     public void insertTest() {
     	// 正常情况
@@ -118,6 +119,7 @@ public abstract class IntervalSetTest {
 		}
     }
     
+    // 测试labels函数
     @Test
     public void labelsTest() {
         // 添加成功
@@ -165,6 +167,7 @@ public abstract class IntervalSetTest {
 		}
     }
     
+    // 测试remove函数
     @Test 
     public void removeTest() {
     	// 删除失败
@@ -209,6 +212,7 @@ public abstract class IntervalSetTest {
     	
     }
     
+    // 测试start函数
     @Test
     public void startTest() {
     	// 标签不存在
@@ -224,6 +228,7 @@ public abstract class IntervalSetTest {
     	assertEquals(0, inset.start(e1));
     }
     
+    // 测试end函数
     @Test
     public void endTest() {
     	// 标签不存在
@@ -239,6 +244,7 @@ public abstract class IntervalSetTest {
     	assertEquals(3, inset.end(e1));
     }
     
+    // 测试copy函数
     @Test
     public void copyTest() {
     	Employee e1 = new Employee("刘", Position.SECRETARY, 123456);

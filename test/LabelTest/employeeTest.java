@@ -9,6 +9,7 @@ import Assist.Position;
 
 class employeeTest {
 
+	// ≤‚ ‘get¿‡∑Ω∑®
 	@Test
 	public void employeeGetTest() {
 		Employee e = new Employee("¡ı", Position.SECRETARY, 12345);
@@ -17,6 +18,7 @@ class employeeTest {
 		assertEquals(12345, e.getPhoneNumber());
 	}
 	
+	// ≤‚ ‘equals∑Ω∑®
 	@Test
 	public void employeeEqualTest() {
 		Employee e0 = new Employee("¡ı", Position.VICEDEAN, 12345);
@@ -33,18 +35,18 @@ class employeeTest {
 		assertFalse(e0.equals(null));
 	}
 	
+	// ≤‚ ‘hashCode∑Ω∑®
 	@Test
 	public void employeeHashCodeTest() {
 		Employee e0 = new Employee("¡ı", Position.VICEDEAN, 12345);
 		assertEquals("¡ı".hashCode() + 12345 + Position.VICEDEAN.hashCode(), e0.hashCode());
 	}
 	
+	// ≤‚ ‘toString∑Ω∑®
 	@Test
 	public void employeeToStringTest() {
 		Employee e0 = new Employee("¡ı", Position.VICEDEAN, 12345);
 		String res = "[Employee:¡ı,Position:VICEDEAN,PhoneNumber:12345]";
 		assertEquals(res, e0.toString());
 	}
-
-
 }

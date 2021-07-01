@@ -12,6 +12,12 @@ import IntervalSet.IntervalSet;
 import exceptions.IntervalConflictException;
 import exceptions.StartNegativeException;
 
+/**
+ * MultiIntervalSet<L>的一个实现类
+ * @author 刘小川
+ *
+ * @param <L>
+ */
 public class CommonMultiIntervalSet<L> implements MultiIntervalSet<L> {
 	
 	private final ArrayList<IntervalSet<L>> intervalList = new ArrayList<>();

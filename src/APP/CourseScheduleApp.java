@@ -18,7 +18,11 @@ import Specific.CourseIntervalSet;
 import exceptions.IntervalConflictException;
 import exceptions.StartNegativeException;
 
-
+/**
+ * 课表管理系统
+ * @author 刘小川
+ *
+ */
 public class CourseScheduleApp {
 
 	public static void printMenu() {

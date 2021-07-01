@@ -1,5 +1,11 @@
 package Assist;
 
+/**
+ * ‘±π§
+ * Immutable
+ * @author ¡ı–°¥®
+ *
+ */
 public class Employee {
 	private final String name;
 	private final Position pos;
@@ -20,7 +26,7 @@ public class Employee {
 	}
 	
 	private void checkRep() {
-		assert name != "";
+		assert !name.equals("");
 	}
 
 	/**

@@ -1,8 +1,11 @@
 package exceptions;
 
+/**
+ * 自定义异常: 时间段冲突异常
+ * @author 刘小川
+ *
+ */
 public class IntervalConflictException extends Exception{
-	
-	
 	
 	/**
 	 * 

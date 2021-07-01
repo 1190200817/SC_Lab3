@@ -8,6 +8,7 @@ import Assist.Course;
 
 class courseTest {
 
+	// 测试get类方法
 	@Test
 	public void courseGetTest() {
 		Course c = new Course(1, "SC", "WZJ", "ZX42");
@@ -17,6 +18,7 @@ class courseTest {
 		assertEquals("ZX42", c.getLocation());
 	}
 	
+	// 测试equals方法
 	@Test
 	public void courseEqualTest() {
 		Course c0 = new Course(1, "SC", "WZJ", "ZX42");
@@ -33,6 +35,7 @@ class courseTest {
 		assertFalse(c0.equals(null));
 	}
 	
+	// 测试hashCode方法
 	@Test
 	public void courseHashCodeTest() {
 		Course c0 = new Course(1, "SC", "WZJ", "ZX42");
@@ -40,6 +43,7 @@ class courseTest {
 		assertEquals(res, c0.hashCode());
 	}
 	
+	// 测试toString方法
 	@Test
 	public void courseToStringTest() {
 		Course c0 = new Course(1, "SC", "WZJ", "ZX42");
@@ -47,6 +51,7 @@ class courseTest {
 		assertEquals(res, c0.toString());
 	}
 	
+	// 测试compareTo方法
 	@Test
 	public void courseCompareTest() {
 		Course c0 = new Course(1, "SC", "WZJ", "ZX42");

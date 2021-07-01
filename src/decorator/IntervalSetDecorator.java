@@ -6,6 +6,12 @@ import IntervalSet.IntervalSet;
 import exceptions.IntervalConflictException;
 import exceptions.StartNegativeException;
 
+/**
+ * IntervalSet装饰器
+ * @author 刘小川
+ *
+ * @param <L>
+ */
 public abstract class IntervalSetDecorator<L> implements IntervalSet<L> {
 	
 	protected final IntervalSet<L> intervalSet;

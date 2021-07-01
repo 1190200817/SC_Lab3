@@ -1,5 +1,11 @@
 package Assist;
 
+/**
+ * øŒ≥Ã
+ * Immutable
+ * @author ¡ı–°¥®
+ *
+ */
 public class Course implements Comparable<Course>{
 	private final int cid;
 	private final String courseName;
@@ -22,9 +28,9 @@ public class Course implements Comparable<Course>{
 	}
 
 	private void checkRep() {
-		assert courseName != "";
-		assert teacherName != "";
-		assert location != "";
+		assert !courseName.equals("");
+		assert !teacherName.equals("");
+		assert !location.equals("");
 	}
 	
 	/**

@@ -15,7 +15,6 @@ import exceptions.StartNegativeException;
  * 
  * Tests against the IntervalSet spec should be in RepMapIntervalSet.
  */
-
 public class CommonIntervalSetTest extends IntervalSetTest {
 	/*
 	 * Provide a RepListIntervalSet for tests in IntervalSetTest.
@@ -45,8 +44,7 @@ public class CommonIntervalSetTest extends IntervalSetTest {
 		}
 		assertEquals("bcd,time:[2:4);abc,time:[0:3);def,time:[1:5);", inset.toString());
 		inset.remove("bcd");
-		assertEquals("abc,time:[0:3);def,time:[1:5);", inset.toString());
-		
+		assertEquals("abc,time:[0:3);def,time:[1:5);", inset.toString());	
 		
 	}
 }

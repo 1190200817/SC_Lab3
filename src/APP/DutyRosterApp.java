@@ -28,6 +28,11 @@ import Specific.DutyIntervalSet;
 import exceptions.IntervalConflictException;
 import exceptions.StartNegativeException;
 
+/**
+ * 排班管理系统
+ * @author 刘小川
+ *
+ */
 public class DutyRosterApp {
 
 	public static void printMenu() {
@@ -280,7 +285,7 @@ public class DutyRosterApp {
 	
 	public static void main(String[] args) {
 		System.out.println("欢迎使用排班管理系统！");
-		System.out.println("(请注意：员工职务只能从manger,secretary,lecturer,professor,assciateprofessor,associatedean中选择！)");
+		System.out.println("(请注意：员工职务只能从manger,secretary,lecturer,professor,assciateprofessor,associatedean中选择，但无需考虑大小写！)");
 		System.out.println("是否从文件初始化信息？（输入y进行文件初始化，其他任意键进入手动初始化）");
 		Scanner scanner = new Scanner(System.in);
 		String choice = scanner.nextLine();

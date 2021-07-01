@@ -11,7 +11,6 @@ import exceptions.StartNegativeException;
 class NoOverlapMultiIntervalSetTest {
 
 	// 因为NoOverlapMultiIntervalSet只有insert方法不同，因此只测试insert方法
-	
 	@Test
 	void insertTest() {
 		MultiIntervalSet<String> mis = MultiIntervalSet.empty();

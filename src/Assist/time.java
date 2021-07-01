@@ -1,5 +1,11 @@
 package Assist;
 
+/**
+ *  ±º‰∂Œ
+ * Immutable
+ * @author ¡ı–°¥®
+ *
+ */
 public class time implements Comparable<time>{
 	private final long start;
 	private final long end;

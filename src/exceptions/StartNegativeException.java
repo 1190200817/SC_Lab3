@@ -1,5 +1,10 @@
 package exceptions;
 
+/**
+ * 自定义异常: 时间负数异常
+ * @author 刘小川
+ *
+ */
 public class StartNegativeException extends Exception {
 	/**
 	 * 

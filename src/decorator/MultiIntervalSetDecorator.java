@@ -7,6 +7,12 @@ import MultiIntervalSet.MultiIntervalSet;
 import exceptions.IntervalConflictException;
 import exceptions.StartNegativeException;
 
+/**
+ * MultiIntervalSet×°ÊÎÆ÷
+ * @author ÁõÐ¡´¨
+ *
+ * @param <L>
+ */
 public abstract class MultiIntervalSetDecorator<L> implements MultiIntervalSet<L>{
 
 	protected final MultiIntervalSet<L> multiIntervalSet;
