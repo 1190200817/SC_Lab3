@@ -154,7 +154,7 @@ public class DutyRosterApp {
 		List<String> eInfo = parser.parseEmployee(originInfo);
 		String pInfo = parser.parsePeriod(originInfo);
 		List<String> rInfo = parser.parseRoster(originInfo);
-		if(eInfo.size() == 0 || pInfo == "" || rInfo.size() == 0) {
+		if(eInfo.size() == 0 || pInfo.equals("") || rInfo.size() == 0) {
 			System.out.println("Error:文件格式存在问题！");
 			return null;
 		}
